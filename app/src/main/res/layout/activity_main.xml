@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/urduFont"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#4CAF50"
+        android:fontFamily="@font/urdu"
+        android:gravity="center"
+        android:text="@string/urdu"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/turkishFont"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FF5722"
+        android:fontFamily="@font/turkish"
+        android:gravity="center"
+        android:text="@string/turkish"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/chineseFont"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#F44336"
+        android:fontFamily="@font/chinese"
+        android:gravity="center"
+        android:text="@string/chinese"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+</LinearLayout>

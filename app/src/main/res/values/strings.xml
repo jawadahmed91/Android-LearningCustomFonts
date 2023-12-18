@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Learning Custom Fonts</string>
+
+    <string name="urdu">ہمارے ساتھ Android اپلی کیشن سیکھیں</string>
+    <string name="turkish">Android Uygulama geliştirmeyi bizimle öğrenin</string>
+    <string name="chinese">Yǔ wǒmen yīqǐ xuéxí Android App kāifā</string>
+</resources>
